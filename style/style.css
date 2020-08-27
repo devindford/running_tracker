@@ -11,10 +11,116 @@ html {
   -webkit-box-sizing: inherit;
           box-sizing: inherit;
   scroll-behavior: smooth;
+  font-family: "Raleway", sans-serif;
+  background: url("/assets/trail.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
 }
 
 body {
-  margin: 0;
+  padding: 1rem;
+  color: #0e131f;
+  background: #2fe980;
+  width: 80%;
+  margin: 0.5rem auto;
+  border-radius: 8px;
+}
+
+.logo {
+  text-align: center;
+  margin: 1rem 0;
+}
+
+form {
+  text-align: center;
+}
+
+label {
+  font-size: 1.8rem;
+}
+
+input[type="number"] {
+  font-family: inherit;
+  background: #0e131f;
+  width: 75%;
+  margin: 1rem 0;
+  padding: 0.8rem 0;
+  border: none;
+  font-size: 1.4rem;
+  text-align: center;
+  color: #31e981;
+}
+
+button {
+  font-family: inherit;
+  font-size: 1.4rem;
+  font-weight: bolder;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: #0e131f;
+  margin: 0.5rem 0 1rem 0;
+  color: #31e981;
+  border-color: #209753;
+}
+
+ul {
   padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  margin: 1rem 2rem;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+li {
+  border: 1px solid;
+  padding: 1rem 1.5rem;
+}
+
+.entriesWrapper {
+  padding: 1rem 0;
+  font-size: 1.6rem;
+}
+
+.entriesWrapper h3 {
+  margin: 0.5rem 0;
+  text-align: center;
+  font-weight: lighter;
+}
+
+.data {
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+
+.data div {
+  background: #209753;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 0.5rem 0;
+  padding: 0 1.3rem;
+}
+
+@media screen and (min-width: 2048px) {
+  html {
+    font-size: 70%;
+  }
+  body {
+    width: 50%;
+    margin: auto;
+  }
 }
 /*# sourceMappingURL=style.css.map */

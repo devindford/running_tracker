@@ -1,3 +1,16 @@
+//*Font Import
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700&display=swap");
 
+//*Sheet Imports
 @import "global";
+
+//*Media Queries
+@media screen and (min-width: 2048px) {
+  html {
+    font-size: 70%;
+  }
+  body {
+    width: 50%;
+    margin: auto;
+  }
+}
