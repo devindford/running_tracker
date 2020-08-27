@@ -13,5 +13,57 @@
     <link rel="stylesheet" href="./style/style.css" />
     <title>Running Tracker</title>
   </head>
-  <body></body>
+  <body>
+    <div class="logo">
+      <img
+        src="./assets/Monsters-University-Squishy-Running-Icon_icon-icons.com_55702.png"
+        alt="monster running"
+      />
+    </div>
+    <form>
+      <label for="entry">Number of miles today</label>
+      <br />
+      <input type="number" step="0.1" id="entry" />
+      <br />
+      <button type="submit">Add</button>
+    </form>
+    <hr />
+    <section class="entriesWrapper">
+      <h3>Last 7 days</h3>
+      <ul id="entries">
+        <li>-</li>
+        <li>-</li>
+        <li>-</li>
+        <li>-</li>
+        <li>-</li>
+        <li>-</li>
+        <li>-</li>
+      </ul>
+    </section>
+
+    <section class="data">
+      <div>
+        <p>Total:</p>
+        <span id="total">0</span>
+      </div>
+      <div>
+        <p>Average distance:</p>
+        <span id="average">0</span>
+      </div>
+      <div>
+        <p>This weeks high:</p>
+        <span id="high">0</span>
+      </div>
+    </section>
+
+    <section class="progress">
+      <h3>
+        Weekly target: <span id="progressTotal">0</span> /
+        <span id="target">25</span> miles
+      </h3>
+      <div class="progressCircleWrapper">
+        <!--* Place Holder for Circle-->
+      </div>
+    </section>
+  </body>
 </html>
